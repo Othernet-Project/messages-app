@@ -1,0 +1,44 @@
+@import "compass/reset";
+@import "compass/css3";
+
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 120%;
+  background: #212121;
+}
+
+h1 {
+  background: #298BEC;
+  font-size: 150%;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  text-align: center;
+}
+
+.messages {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.message {
+  background: white;
+  color: #212121;
+  padding: 0.3em 1em;
+  margin-bottom: 1em;
+  @include box-shadow(0 0 5px transparentize(black, 0.4));
+
+  .date {
+    color: #888;
+    font-size: 90%;
+  }
+
+  &.new {
+    background: #eaffd5;
+  }
+}

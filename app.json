@@ -1,0 +1,10 @@
+{
+  "id": "messages",
+  "title": "Announcements",
+  "version": "0.1",
+  "author": "Outernet Inc",
+  "description": {
+    "en": "Read messages from Outernet"
+  },
+  "icon_behavior": true
+}
