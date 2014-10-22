@@ -103,10 +103,10 @@
   function formatDate(message) {
     var date = parseDate(message);
     var year = date.getFullYear();
-    var month = date.getMonth() + 1;
-    var day = date.getDate();
+    var month = zeroPad(date.getMonth() + 1);
+    var day = zeroPad(date.getDate());
     var hours = date.getHours();
-    var mins = date.getMinutes();
+    var mins = zeroPad(date.getMinutes());
     return [year, month, day].join('-') + ' ' + [hours, mins].join(':');
   }
 
@@ -120,6 +120,15 @@
       .replace(/'/g, '&apos;')
       .replace(/"/g, '&quot;')
       .replace(/&/g, '&amp;');
+  }
+
+  /**
+   * Zero-pad numbers
+   */
+  function zeroPad(n, digits) {
+    digits = digits || 2;
+    var zeroes = (new Array(digits)).join('0');
+    return (zeroes + n).slice(-digits);
   }
 
 }(this, jQuery));
