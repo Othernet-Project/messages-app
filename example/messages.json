@@ -1,28 +1,8 @@
 [
   {
     "lang": null,
-    "text": "Always in future",
-    "added": "2200-10-22T12:00:11.000Z"
-  },
-  {
-    "lang": "en",
-    "text": "Test message",
-    "added": "2014-10-22T13:00:11.000Z"
-  },
-  {
-    "lang": "en",
-    "text": "Another test message",
-    "added": "2014-10-20T12:00:11.000Z"
-  },
-  {
-    "lang": "jp",
-    "text": "日本語テストメッセージ",
-    "added": "2014-10-19T12:00:11.000Z"
-  },
-  {
-    "lang": null,
-    "text": "Everyone can see this!",
-    "added": "2014-10-19T11:48:00.011Z"
+    "text": "Welcome to messages app. This app is used by Outernet staff to broadcast announcements to Outernet users. Please watch this space periodically to stay up to date.",
+    "added": "2200-10-22T16:40:00.000Z"
   }
 ]
 
