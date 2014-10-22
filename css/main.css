@@ -100,13 +100,17 @@ h1 {
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  border: 2px solid #888;
 }
-/* line 36, ../scss/main.scss */
+/* line 38, ../scss/main.scss */
 .message .date {
   color: #888;
-  font-size: 90%;
+  font-size: 80%;
 }
-/* line 41, ../scss/main.scss */
+/* line 43, ../scss/main.scss */
 .message.new {
   background: #eaffd5;
 }
